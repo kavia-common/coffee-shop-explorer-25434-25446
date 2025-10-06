@@ -1,0 +1,96 @@
+:root {
+  /* Colors from design_system.colors */
+  --color-white: #ffffff;
+  --color-deep_lagoon_blue: ;
+  --color-sea_foam: ;
+  --color-disabled_state: ;
+  --color-gold: ;
+  --color-sea_foam_2: ;
+  --color-black: ;
+  --color-mint: ;
+  --color-salmon: ;
+  --color-f0edee: #f0edee;
+  --color-fcfeff: #fcfeff;
+  --color-3d3d3d: #3d3d3d;
+  --color-ffffff: #ffffff;
+  --color-edf0ef: #edf0ef;
+  --color-003b40: #003b40;
+  --color-b7c1c2: #b7c1c2;
+  --color-fdcb6e: #fdcb6e;
+  --color-a4adae: #a4adae;
+  --color-000506: #000506;
+  --color-000000: #000000;
+
+  /* Typography tokens from design_system.typography */
+  --typo-0-family: Poppins; --typo-0-size: 16px; --typo-0-weight: 500; --typo-0-line-height: 24px; --typo-0-letter-spacing: 0px; --typo-0-text-align: left;
+  --typo-1-family: Raleway; --typo-1-size: 18px; --typo-1-weight: 600; --typo-1-line-height: 21.132px; --typo-1-letter-spacing: 0px; --typo-1-text-align: left;
+  --typo-2-family: Raleway; --typo-2-size: 20px; --typo-2-weight: 600; --typo-2-line-height: 23.48px; --typo-2-letter-spacing: 0px; --typo-2-text-align: left;
+  --typo-3-family: Raleway; --typo-3-size: 14px; --typo-3-weight: 600; --typo-3-line-height: 16.436px; --typo-3-letter-spacing: 0px; --typo-3-text-align: left;
+  --typo-4-family: Raleway; --typo-4-size: 16px; --typo-4-weight: 700; --typo-4-line-height: 18.784px; --typo-4-letter-spacing: 0px; --typo-4-text-align: left;
+  --typo-5-family: Raleway; --typo-5-size: 14px; --typo-5-weight: 400; --typo-5-line-height: 16.436px; --typo-5-letter-spacing: 0px; --typo-5-text-align: left;
+  --typo-6-family: Raleway; --typo-6-size: 25px; --typo-6-weight: 600; --typo-6-line-height: 29.35px; --typo-6-letter-spacing: 0px; --typo-6-text-align: left;
+  --typo-7-family: Raleway; --typo-7-size: 16px; --typo-7-weight: 600; --typo-7-line-height: 18.784px; --typo-7-letter-spacing: 0px; --typo-7-text-align: left;
+  --typo-8-family: Raleway; --typo-8-size: 38px; --typo-8-weight: 400; --typo-8-line-height: 44.612px; --typo-8-letter-spacing: 0px; --typo-8-text-align: left;
+  --typo-9-family: Poppins; --typo-9-size: 28px; --typo-9-weight: 400; --typo-9-line-height: 42px; --typo-9-letter-spacing: 0px; --typo-9-text-align: left;
+  --typo-10-family: Poppins; --typo-10-size: 16px; --typo-10-weight: 500; --typo-10-line-height: 24px; --typo-10-letter-spacing: 0px; --typo-10-text-align: left; --typo-10-color: var(--color-3d3d3d);
+  --typo-11-family: Raleway; --typo-11-size: 18px; --typo-11-weight: 600; --typo-11-line-height: 21.132px; --typo-11-letter-spacing: 0px; --typo-11-text-align: left; --typo-11-color: var(--color-003b40);
+  --typo-12-family: Raleway; --typo-12-size: 18px; --typo-12-weight: 600; --typo-12-line-height: 21.132px; --typo-12-letter-spacing: 0px; --typo-12-text-align: left; --typo-12-color: var(--color-b7c1c2);
+  --typo-13-family: Raleway; --typo-13-size: 20px; --typo-13-weight: 600; --typo-13-line-height: 23.48px; --typo-13-letter-spacing: 0px; --typo-13-text-align: left; --typo-13-color: var(--color-003b40);
+  --typo-14-family: Raleway; --typo-14-size: 14px; --typo-14-weight: 600; --typo-14-line-height: 16.436px; --typo-14-letter-spacing: 0px; --typo-14-text-align: left; --typo-14-color: var(--color-003b40);
+  --typo-15-family: Raleway; --typo-15-size: 16px; --typo-15-weight: 700; --typo-15-line-height: 18.784px; --typo-15-letter-spacing: 0px; --typo-15-text-align: left; --typo-15-color: var(--color-003b40);
+  --typo-16-family: Raleway; --typo-16-size: 14px; --typo-16-weight: 400; --typo-16-line-height: 16.436px; --typo-16-letter-spacing: 0px; --typo-16-text-align: left; --typo-16-color: var(--color-003b40);
+  --typo-17-family: Raleway; --typo-17-size: 25px; --typo-17-weight: 600; --typo-17-line-height: 29.35px; --typo-17-letter-spacing: 0px; --typo-17-text-align: left; --typo-17-color: var(--color-003b40);
+  --typo-18-family: Raleway; --typo-18-size: 16px; --typo-18-weight: 600; --typo-18-line-height: 18.784px; --typo-18-letter-spacing: 0px; --typo-18-text-align: left; --typo-18-color: var(--color-a4adae);
+  --typo-19-family: Raleway; --typo-19-size: 38px; --typo-19-weight: 400; --typo-19-line-height: 44.612px; --typo-19-letter-spacing: 0px; --typo-19-text-align: left; --typo-19-color: var(--color-003b40);
+  --typo-20-family: Poppins; --typo-20-size: 28px; --typo-20-weight: 400; --typo-20-line-height: 42px; --typo-20-letter-spacing: 0px; --typo-20-text-align: left; --typo-20-color: var(--color-000506);
+
+  /* Spacing scale (subset) */
+  --space-41: 40px;
+  --space-45: 48px;
+
+  /* Border radius scale */
+  --radius-7: 7px;
+  --radius-17: 17px;
+  --radius-20: 20px;
+  --radius-27: 27px;
+  --radius-40: 40px;
+
+  /* Shadows */
+  --shadow-0: 0px 4px 60px 0px #a8a5a6;
+  --shadow-1: 0px 4px 6px 0px #003b40;
+}
+
+/* Base resets for our generated screens */
+.figma-screen {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  background: var(--color-fcfeff);
+}
+.figma-abs { position: absolute; }
+.figma-flex-row { display: flex; flex-direction: row; }
+.figma-flex-col { display: flex; flex-direction: column; }
+.figma-ellipse { border-radius: 50%; overflow: hidden; }
+.figma-rect { display: block; }
+.figma-img { display: block; object-fit: cover; }
+.visually-hidden { position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden; }
+
+/* Navigation specific utility */
+.nav-item-selected { }
+
+/* Additional style tokens used */
+.style-1 { background-color: var(--color-fcfeff); border-radius: var(--radius-40); }
+.style-4 { background-color: var(--color-ffffff); }
+.style-12 { background-color: var(--color-edf0ef); border-radius: var(--radius-20); }
+.style-14 { border: 2px solid var(--color-ffffff); }
+.style-16 { border-radius: var(--radius-20); }
+.style-17 { background-color: var(--color-edf0ef); border: 2.8px solid var(--color-ffffff); }
+.style-26 { background-color: var(--color-003b40); border-radius: var(--radius-27); box-shadow: var(--shadow-1); }
+.style-27 { background-color: var(--color-003b40); border-radius: var(--radius-20); box-shadow: var(--shadow-1); }
+
+/* Typography utility classes */
+.typo-13 { font-family: var(--typo-13-family); font-size: var(--typo-13-size); font-weight: var(--typo-13-weight); line-height: var(--typo-13-line-height); letter-spacing: 0; text-align: left; color: var(--typo-13-color); }
+.typo-14 { font-family: var(--typo-14-family); font-size: var(--typo-14-size); font-weight: var(--typo-14-weight); line-height: var(--typo-14-line-height); letter-spacing: 0; text-align: left; color: var(--typo-14-color); }
+.typo-15 { font-family: var(--typo-15-family); font-size: var(--typo-15-size); font-weight: var(--typo-15-weight); line-height: var(--typo-15-line-height); letter-spacing: 0; text-align: left; color: var(--typo-15-color); }
+.typo-17 { font-family: var(--typo-17-family); font-size: var(--typo-17-size); font-weight: var(--typo-17-weight); line-height: var(--typo-17-line-height); letter-spacing: 0; text-align: left; color: var(--typo-17-color); }
+.typo-18 { font-family: var(--typo-18-family); font-size: var(--typo-18-size); font-weight: var(--typo-18-weight); line-height: var(--typo-18-line-height); letter-spacing: 0; text-align: left; color: var(--typo-18-color); }

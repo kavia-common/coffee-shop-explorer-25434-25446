@@ -1,0 +1,12 @@
+#home-screen {
+  box-sizing: border-box;
+}
+
+/* Ensure crisp rendering and prevent font fallback spacing shifts */
+#home-screen, #home-screen * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#node-206-13:hover { filter: brightness(1.05); transition: filter 160ms ease; }
+nav#node-205-169 .style-4 { background: transparent; }
