@@ -19,6 +19,9 @@ function App() {
     setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light');
   };
 
+  // Simple toggle to preview either Home or Cafe screen if needed later
+  const [showHome, setShowHome] = useState(true);
+
   return (
     <div className="App">
       <header className="App-header" style={{ minHeight: 'auto', backgroundColor: 'transparent' }}>
@@ -30,10 +33,7 @@ function App() {
           {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
         </button>
       </header>
-      {/* Temporary: render CafeScreen16 to preview this screen. Replace with routing later. */}
-      <CafeScreen16 />
-      {/* Optionally keep HomeScreen13 below for visual comparison */}
-      {/* <HomeScreen13 /> */}
+      {showHome ? <HomeScreen13 /> : <CafeScreen16 />}
     </div>
   );
 }
