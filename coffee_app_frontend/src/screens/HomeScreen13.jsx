@@ -7,6 +7,8 @@ import React, { useEffect } from 'react';
  * minimal interaction logic to React (bottom nav selection and filter button press).
  */
 export default function HomeScreen13() {
+  // Images are served from CRA public directory. Use absolute /figmaimages or PUBLIC_URL prefix
+  // e.g., `${process.env.PUBLIC_URL}/figmaimages/...` to work in dev and production subpaths.
   useEffect(() => {
     // Bottom nav selection behavior adapted from assets/home-screen-1-3.js
     const nav = document.getElementById('node-205-169');
@@ -65,7 +67,7 @@ export default function HomeScreen13() {
       >
         <img
           className="figma-img"
-          src="/figmaimages/figma_image_203_66.png"
+          src={`${process.env.PUBLIC_URL || ''}/figmaimages/figma_image_203_66.png`}
           alt="Ellipse 1"
           width="50"
           height="50"
@@ -111,7 +113,7 @@ anywhere`}
             <div id="node-205-204" className="style-4" style={{ width: 24, height: 24, position: 'relative' }}>
               <img
                 id="node-205-205"
-                src="/figmaimages/figma_image_205_205.png"
+                src={`${process.env.PUBLIC_URL || ''}/figmaimages/figma_image_205_205.png`}
                 alt="Search Icon Vector"
                 width="16"
                 height="16"
@@ -135,7 +137,7 @@ anywhere`}
             <div style={{ position: 'absolute', left: 0, top: 15, width: 10, height: 0, borderTop: '2px solid #ffffff' }} />
             <div className="figma-ellipse style-14" style={{ position: 'absolute', left: 0, top: 0, width: 8, height: 8, background: 'transparent' }}>
               <img
-                src="/figmaimages/figma_image_205_120.png"
+                src={`${process.env.PUBLIC_URL || ''}/figmaimages/figma_image_205_120.png`}
                 alt="Ellipse 4"
                 width="8"
                 height="8"
@@ -161,7 +163,7 @@ anywhere`}
           >
             <img
               className="figma-img"
-              src="/figmaimages/figma_image_203_72.png"
+              src={`${process.env.PUBLIC_URL || ''}/figmaimages/figma_image_203_72.png`}
               alt="Rectangle 1747"
               width="153"
               height="168"
@@ -171,7 +173,7 @@ anywhere`}
             <div id="node-205-84" className="figma-ellipse style-17" style={{ position: 'absolute', left: 0, top: 0, width: 36, height: 36 }} />
             <img
               id="node-205-91"
-              src="/figmaimages/figma_image_205_91.png"
+              src={`${process.env.PUBLIC_URL || ''}/figmaimages/figma_image_205_91.png`}
               alt="Vector"
               width="16"
               height="13.955297470092773"
@@ -190,7 +192,7 @@ anywhere`}
           >
             <img
               id="node-205-98"
-              src="/figmaimages/figma_image_205_98.png"
+              src={`${process.env.PUBLIC_URL || ''}/figmaimages/figma_image_205_98.png`}
               alt="Star Vector"
               width="13"
               height="12.363000869750977"
@@ -217,7 +219,7 @@ anywhere`}
           >
             <img
               className="figma-img"
-              src="/figmaimages/figma_image_203_73.png"
+              src={`${process.env.PUBLIC_URL || ''}/figmaimages/figma_image_203_73.png`}
               alt="Rectangle 1748"
               width="153"
               height="190"
@@ -315,7 +317,7 @@ anywhere`}
             <div id="node-205-166" style={{ position: 'absolute', left: 3.6, top: 2.4, width: 18, height: 20.000013 }}>
               <img
                 id="node-205-154"
-                src="/figmaimages/figma_image_205_154.png"
+                src={`${process.env.PUBLIC_URL || ''}/figmaimages/figma_image_205_154.png`}
                 alt="home Vector"
                 width="18"
                 height="20.000001907348633"
@@ -328,7 +330,7 @@ anywhere`}
         <div id="node-205-161" className="style-4" style={{ position: 'relative', width: 24, height: 24 }}>
           <img
             id="node-205-162"
-            src="/figmaimages/figma_image_205_162.png"
+            src={`${process.env.PUBLIC_URL || ''}/figmaimages/figma_image_205_162.png`}
             alt="heart Vector"
             width="20.90311622619629"
             height="18.23182487487793"
@@ -339,7 +341,7 @@ anywhere`}
         <div id="node-205-156" className="style-4" style={{ position: 'relative', width: 24, height: 24 }}>
           <img
             id="node-205-157"
-            src="/figmaimages/figma_image_205_157.png"
+            src={`${process.env.PUBLIC_URL || ''}/figmaimages/figma_image_205_157.png`}
             alt="bookmark Vector"
             width="14"
             height="18"
@@ -350,7 +352,7 @@ anywhere`}
         <div id="node-205-158" className="style-4" style={{ position: 'relative', width: 24, height: 24 }}>
           <img
             id="node-205-160"
-            src="/figmaimages/figma_image_205_160.png"
+            src={`${process.env.PUBLIC_URL || ''}/figmaimages/figma_image_205_160.png`}
             alt="user Vector"
             width="8"
             height="8"
