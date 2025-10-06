@@ -1,0 +1,50 @@
+#cafe-screen-1-6 {
+  box-sizing: border-box;
+}
+
+/* Ensure crisp rendering and prevent font fallback spacing shifts */
+#cafe-screen-1-6, #cafe-screen-1-6 * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Local tokens (rely on assets/common.css core variables) */
+.style-3 { background-color: var(--color-ffffff); border-radius: var(--radius-40); } /* style_3 overrides */
+.style-5 { background-color: var(--color-ffffff); opacity: 0.5; } /* style_5 per DS */
+.style-6 { background-color: var(--color-edf0ef); border-radius: var(--radius-27); } /* style_6 */
+.style-7 { background-color: var(--color-003b40); } /* used as text color via .typo classes already */
+.style-8 { background-color: var(--color-b7c1c2); } /* used for label color via typo_12 */
+.style-9 { background-color: var(--color-ffffff); border-radius: var(--radius-7); } /* back button frame */
+.style-12 { background-color: var(--color-edf0ef); border-radius: var(--radius-20); }
+.style-13 { background-color: var(--color-003b40); border: 2.8px solid var(--color-ffffff); border-radius: 50%; }
+.style-15 { border-radius: var(--radius-17); }
+
+/* Vector-only drawings */
+.chevron-left-stroke {
+  /* Draw a left chevron using borders to match 6x12 size with stroke color var(--color-003b40) */
+  width: 6px;
+  height: 12px;
+  box-sizing: border-box;
+  border-left: 2px solid var(--color-003b40);
+  border-bottom: 2px solid var(--color-003b40);
+  transform: rotate(45deg);
+}
+
+/* Plus icon strokes (vertical/horizontal) use white stroke (style_14) */
+.plus-vert::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 14px;
+  border-right: 2px solid var(--color-ffffff);
+}
+.plus-horz::after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 0;
+  border-top: 2px solid var(--color-ffffff);
+}
+
+/* Minor interactions */
+#node-207-48:hover { filter: brightness(0.98); transition: filter 160ms ease; }

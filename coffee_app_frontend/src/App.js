@@ -3,6 +3,7 @@ import './App.css';
 import './assets/common.css';
 import './assets/home-screen-1-3.css';
 import HomeScreen13 from './screens/HomeScreen13';
+import CafeScreen16 from './screens/CafeScreen16';
 
 // PUBLIC_INTERFACE
 function App() {
@@ -29,7 +30,10 @@ function App() {
           {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
         </button>
       </header>
-      <HomeScreen13 />
+      {/* Temporary: render CafeScreen16 to preview this screen. Replace with routing later. */}
+      <CafeScreen16 />
+      {/* Optionally keep HomeScreen13 below for visual comparison */}
+      {/* <HomeScreen13 /> */}
     </div>
   );
 }
